@@ -10447,6 +10447,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 220072594005809151, guid: 16fa3c88764d91342998193943e0d63e, type: 3}
+      propertyPath: m_Name
+      value: Quit the game
+      objectReference: {fileID: 0}
     - target: {fileID: 1206474459709028730, guid: 16fa3c88764d91342998193943e0d63e, type: 3}
       propertyPath: m_AnchorMax.x
       value: 1
@@ -10519,9 +10523,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4599623675622271800, guid: 16fa3c88764d91342998193943e0d63e, type: 3}
+      propertyPath: m_text
+      value: Options
+      objectReference: {fileID: 0}
     - target: {fileID: 6255513707766248317, guid: 16fa3c88764d91342998193943e0d63e, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6623916106854356014, guid: 16fa3c88764d91342998193943e0d63e, type: 3}
+      propertyPath: m_text
+      value: Quit the game
       objectReference: {fileID: 0}
     - target: {fileID: 6929804595126970774, guid: 16fa3c88764d91342998193943e0d63e, type: 3}
       propertyPath: m_Name
