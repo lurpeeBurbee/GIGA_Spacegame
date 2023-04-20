@@ -135,7 +135,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnJupiter
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 72168714}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.39, y: 6.6, z: -0.37371066}
+  m_LocalPosition: {x: -0.2, y: -7, z: -0.37371066}
   m_LocalScale: {x: 1.3266118, y: 1.3266118, z: 1.3266118}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -319,9 +319,9 @@ GameObject:
   m_Component:
   - component: {fileID: 118896151}
   m_Layer: 0
-  m_Name: Spawn8
+  m_Name: SpawnUranus
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -333,7 +333,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 118896150}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2, y: 9.9, z: -0.806873}
+  m_LocalPosition: {x: 1.7, y: 7.8, z: -0.806873}
   m_LocalScale: {x: 2.864267, y: 2.864267, z: 2.864267}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -435,7 +435,7 @@ GameObject:
   m_Layer: 0
   m_Name: Bound
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -715,7 +715,7 @@ GameObject:
   m_Layer: 0
   m_Name: SpawnMars
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -727,7 +727,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 405175111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.34, y: -7.45, z: -0.4910653}
+  m_LocalPosition: {x: 0.5, y: 4.8, z: -0.4910653}
   m_LocalScale: {x: 1.7432015, y: 1.7432015, z: 1.7432015}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1458,9 +1458,9 @@ GameObject:
   m_Component:
   - component: {fileID: 655934276}
   m_Layer: 0
-  m_Name: Spawn7
+  m_Name: SpawnSaturn
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1472,7 +1472,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655934275}
   m_LocalRotation: {x: -0, y: -0, z: -0.091501914, w: 0.9958049}
-  m_LocalPosition: {x: 0.4, y: 8.9, z: -0.32532984}
+  m_LocalPosition: {x: -0.6, y: -13, z: -0.32532984}
   m_LocalScale: {x: 1.1548676, y: 1.1548676, z: 1.1548676}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2305,9 +2305,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1020519615}
   m_Layer: 0
-  m_Name: Spawn10
+  m_Name: SpawnPluto
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2319,7 +2319,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1020519614}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.04, y: -2.21, z: -0.44098797}
+  m_LocalPosition: {x: 0.3, y: 4, z: -0.44098797}
   m_LocalScale: {x: 1.5654349, y: 1.5654349, z: 1.5654349}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2942,6 +2942,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 168722536151559143, guid: f43fe269179252642bb4e91b7c249575, type: 3}
+      propertyPath: PlanetName
+      value: 
+      objectReference: {fileID: 655684343}
     - target: {fileID: 168722536411723681, guid: f43fe269179252642bb4e91b7c249575, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -10129,6 +10133,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 168722536151559143, guid: f43fe269179252642bb4e91b7c249575, type: 3}
+      propertyPath: PlanetName
+      value: 
+      objectReference: {fileID: 1030354141}
     - target: {fileID: 168722536411723684, guid: f43fe269179252642bb4e91b7c249575, type: 3}
       propertyPath: m_text
       value: Venus
@@ -10239,9 +10247,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2122076542}
   m_Layer: 0
-  m_Name: Spawn9
+  m_Name: SpawnNeptunus
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -10253,7 +10261,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122076541}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 7.6, z: -0.42877677}
+  m_LocalPosition: {x: 0.1, y: -6.2, z: -0.42877677}
   m_LocalScale: {x: 1.5220872, y: 1.5220872, z: 1.5220872}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10320,6 +10328,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 168722536151559143, guid: f43fe269179252642bb4e91b7c249575, type: 3}
+      propertyPath: PlanetName
+      value: 
+      objectReference: {fileID: 838397541}
     - target: {fileID: 168722536411723684, guid: f43fe269179252642bb4e91b7c249575, type: 3}
       propertyPath: m_text
       value: Mercury
@@ -10339,11 +10351,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2975811530080984704, guid: 3085c6a912855154fbb83dff3197cde0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.38
+      value: 0.43
       objectReference: {fileID: 0}
     - target: {fileID: 2975811530080984704, guid: 3085c6a912855154fbb83dff3197cde0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7.7
+      value: 5.4
       objectReference: {fileID: 0}
     - target: {fileID: 2975811530080984704, guid: 3085c6a912855154fbb83dff3197cde0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10378,6 +10390,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2975811530080984705, guid: 3085c6a912855154fbb83dff3197cde0, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 2975811530080984705, guid: 3085c6a912855154fbb83dff3197cde0, type: 3}
       propertyPath: m_Name
       value: SpawnMercurius
       objectReference: {fileID: 0}
@@ -10396,11 +10412,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6061735836282712729, guid: abc90a2097872c3439397b15083f000d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.56
+      value: -0.9
       objectReference: {fileID: 0}
     - target: {fileID: 6061735836282712729, guid: abc90a2097872c3439397b15083f000d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.35
+      value: 5.1
       objectReference: {fileID: 0}
     - target: {fileID: 6061735836282712729, guid: abc90a2097872c3439397b15083f000d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10434,6 +10450,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6061735836282712730, guid: abc90a2097872c3439397b15083f000d, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 6061735836282712730, guid: abc90a2097872c3439397b15083f000d, type: 3}
       propertyPath: m_Name
       value: SpawnVenus
@@ -10594,6 +10614,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6930786259092350046, guid: 94b7683d5e4e41742a919ca17a6b14a3, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+    - target: {fileID: 6930786259092350046, guid: 94b7683d5e4e41742a919ca17a6b14a3, type: 3}
       propertyPath: m_Name
       value: SpawnEarth
       objectReference: {fileID: 0}
@@ -10606,6 +10630,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 518157404}
     m_Modifications:
+    - target: {fileID: 7428353812815853314, guid: 8ae9620a28a398743b266098418324c4, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 7428353812815853314, guid: 8ae9620a28a398743b266098418324c4, type: 3}
       propertyPath: m_Name
       value: Start_spawnLocation

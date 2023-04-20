@@ -84,7 +84,7 @@ public class QuizManager : MonoBehaviour
         button4.onClick.AddListener(CheckButton4);
     }
 
-    void Update()
+   /* void Update()
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
@@ -92,7 +92,7 @@ public class QuizManager : MonoBehaviour
         }
 
 
-    }
+    } */
 
     void UpdateQuiz()
     {

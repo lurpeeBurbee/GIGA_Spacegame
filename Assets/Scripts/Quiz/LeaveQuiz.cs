@@ -8,6 +8,8 @@ public class LeaveQuiz : MonoBehaviour
     {
 
         // Vaihda t‰h‰n spawnpoint niin, ett‰ spawnaa edellisen planeetan viereen!
+        // T‰m‰ ajetaan mm. silloin kun quizzista on p‰‰sty yksi rundi l‰pi!
+
         SceneManager.LoadScene("Map");
         Time.timeScale = 1;
     }
