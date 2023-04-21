@@ -1403,8 +1403,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: Did you know, that Neil Armstrong was first human who walked on the
-        moon?
+      value: Did you know that Neil Armstrong was the first human who walked on the
+        Moon?
       objectReference: {fileID: 0}
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_fontStyle

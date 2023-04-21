@@ -1224,9 +1224,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: Mercury is the smallest planet in our solar system. It's a little bigger
+      value: Mercury is the smallest planet in our Dolar system. It's a bit bigger
         than Earth's Moon. It is the closest planet to the Sun, but it's actually
-        not the hottest. Venus is hotter. Along with Venus, Earth, and Mars, Mercury
+        not the hottest. Venus is hotter. Along with Venus, Earth and Mars, Mercury
         is one of the rocky planets.
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}

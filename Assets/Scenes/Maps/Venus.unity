@@ -1274,8 +1274,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: Venus is known for its exceptional brightness. It's volcanoes that dot
-        Venus's surface, the storms that rage in its atmosphere, and the surprising
+      value: Venus is known for its exceptional brightness. Its volcanoes that dot
+        Venus's surface and the storms that rage in its atmosphere. A surprising
         feature that makes Venus outshine every planet or star in the night sky.
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
@@ -1316,9 +1316,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: Venus is hotter than Mercury,despite being further away from the Sun
-        and unlike the other planets in our solar system, Venus spins clockwise on
-        its axis!
+      value: Venus is hotter than Mercury, despite being further away from the Sun.
+        Unlike the other planets in our Solar system, Venus spins clockwise on its
+        axis!
       objectReference: {fileID: 0}
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_fontStyle
