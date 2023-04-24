@@ -1678,6 +1678,10 @@ PrefabInstance:
       propertyPath: spawnLocationList
       value: 
       objectReference: {fileID: 11400000, guid: 896eb1a2770f0a744a2da52295bd628c, type: 2}
+    - target: {fileID: 3132497755350429644, guid: ccbd6021e3b87164ba362b029f657b8c, type: 3}
+      propertyPath: SpawnAreaList.Array.data[0]
+      value: 
+      objectReference: {fileID: 2975811530080984704, guid: 3085c6a912855154fbb83dff3197cde0, type: 3}
     - target: {fileID: 4168297406934761973, guid: ccbd6021e3b87164ba362b029f657b8c, type: 3}
       propertyPath: options
       value: 

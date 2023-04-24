@@ -10,10 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 6930786259092350041}
   - component: {fileID: 6930786259092350040}
+  - component: {fileID: 5230254496914261121}
   m_Layer: 0
   m_Name: SpawnEarth
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -84,3 +85,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5230254496914261121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6930786259092350046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a6aeba1ab05d2343afbffcae9133ef6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnLocationList: {fileID: 0}
+  player: {fileID: 8882003552576801435, guid: ccbd6021e3b87164ba362b029f657b8c, type: 3}
+  currentScene: Map
+  SpawnAreaList:
+  - {fileID: 6930786259092350041}

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   location: {fileID: 6930786259092350046, guid: 94b7683d5e4e41742a919ca17a6b14a3, type: 3}
   locations:
-  - {fileID: 0}
+  - {fileID: 6930786259092350041, guid: 94b7683d5e4e41742a919ca17a6b14a3, type: 3}
   myString: Jebulis

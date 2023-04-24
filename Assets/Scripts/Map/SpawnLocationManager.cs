@@ -34,7 +34,7 @@ public class SpawnLocationManager : MonoBehaviour
 
         if (currentScene == "Map" && previousScene == "Earth")
         {
-            player.transform.position = new Vector3(10, -3, 0);
+            player.transform.position = new Vector3(100, -30, 0); // Muuta t‰‰ Maan viereen! Spawnauksen testaus menossa toistaiseksi
         }
         if (currentScene == "Map" && previousScene == "Venus")
         {
