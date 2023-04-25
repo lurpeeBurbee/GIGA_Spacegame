@@ -815,5 +815,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlaceHolder Back
       objectReference: {fileID: 0}
+    - target: {fileID: 7567500715740535566, guid: 9036d4e31c60ed4428c21b6cfbcc62bd, type: 3}
+      propertyPath: m_margin.w
+      value: 7.7788963
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9036d4e31c60ed4428c21b6cfbcc62bd, type: 3}

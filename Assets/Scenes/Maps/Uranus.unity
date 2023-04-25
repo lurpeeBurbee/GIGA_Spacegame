@@ -1219,10 +1219,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: Uranus is ice giant, the only planet whose equator is nearly at a right
-        angle to its orbit. Possibly the result of a collision with an Earth-sized
-        object long ago. This unique tilt causes the most extreme seasons in the
-        solar system.
+      value: Uranus is an ice giant, the only planet whose equator is nearly at a
+        right angle to its orbit. Possibly the result of a collision with an Earth-sized
+        object long time ago. This unique tilt causes the most extreme seasons in
+        the solar system.
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_fontStyle
@@ -1263,7 +1263,7 @@ PrefabInstance:
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
       value: Fun fact! You could fit 63 Earths inside Uranus! Uranus also has 13
-        rings around its self
+        rings around itself.
       objectReference: {fileID: 0}
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_fontStyle
