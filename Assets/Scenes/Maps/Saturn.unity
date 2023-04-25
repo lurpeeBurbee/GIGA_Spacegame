@@ -1215,8 +1215,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: Satrun, its the second largest planet in solar system and is an Gas
-        Giant.
+      value: Saturn is the second largest planet in the Solar system and is a gas
+        giant.
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_fontStyle
@@ -1260,9 +1260,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: Hey, Space Trucker! Watch out for the ring, it's full of countless of
-        diffrent debree and 82 moons. We have only confirmed 62 and named them as
-        well! That makes the most moons in our Solar system!
+      value: Hey, Space Trucker! Watch out for the ring, it's full of countless different
+        debris and 82 moons. We have only confirmed 62 and named them as well! That
+        makes the most moons in our Solar system!
       objectReference: {fileID: 0}
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_fontStyle

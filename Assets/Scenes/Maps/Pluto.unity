@@ -1220,9 +1220,9 @@ PrefabInstance:
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
       value: Pluto is a complex and mysterious world with mountains, valleys, plains,
-        craters, and maybe glaciers. Pluto was long considered our solar system's
-        ninth planet. But after the discovery of similar intriguing worlds deeper
-        in the distant Kuiper Belt, icy Pluto was reclassified as a dwarf planet.
+        craters and maybe glaciers. Pluto was long considered our Solar system's
+        9th planet. But after the discovery of similar intriguing worlds deeper in
+        the distant Kuiper Belt, icy Pluto was reclassified as a dwarf planet.
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_fontStyle

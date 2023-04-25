@@ -1249,8 +1249,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: Jupiter is the largest gas giant on solar system and doesn't have a
-        solid surface, but it may have a solid inner core about the size of Earth.
+      value: Jupiter is the largest gas giant in the Solar system and doesn't have
+        a solid surface but it may have a solid inner core about the size of Earth.
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_fontStyle
@@ -1290,7 +1290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: Can you see that Giant red spot? The Great Red Spot is a persistent
+      value: Can you see that giant red spot? The Great Red Spot is a persistent
         high-pressure region in the atmosphere of Jupiter, producing an anticyclonic
         storm!
       objectReference: {fileID: 0}

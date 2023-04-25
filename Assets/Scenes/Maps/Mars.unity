@@ -1231,9 +1231,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: "Mars is the fourth planet from the Sun \u2013 a dusty, cold, desert
-        world with a very thin atmosphere. Mars is also a dynamic planet with seasons,
-        polar ice caps, canyons, extinct volcanoes, and evidence that it was even
+      value: "Mars is the 4yh planet from the Sun \u2013 a dusty, cold desert world
+        with a very thin atmosphere. Mars is also a dynamic planet with seasons,
+        polar ice caps, canyons and extinct volcanoes. An evidence that it was even
         more active in the past."
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
@@ -1279,7 +1279,7 @@ PrefabInstance:
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
       value: Fun fact, Space Trucker! Due to its color, Mars is also known as the
-        red planet! It also has 2 planets called Deimos and Phobos.
+        red planet! It also has 2 moons called Deimos and Phobos.
       objectReference: {fileID: 0}
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_fontStyle

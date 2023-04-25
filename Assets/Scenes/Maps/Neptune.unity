@@ -1211,8 +1211,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: Neptune is the Smallest of the Gas Giants and most distant planet on
-        solar system. Its surfrace gravity is almost Earth-like.
+      value: Neptune is the smallest of the gas giants and most distant planet in
+        the Solar system. Its surface gravity is close to Earth's.
       objectReference: {fileID: 0}
     - target: {fileID: 310587583547130573, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_fontStyle
@@ -1252,7 +1252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_text
-      value: Neptune is the only planet in our solar system not visible to the naked
+      value: Neptune is the only planet in our Solar system not visible to the naked
         eye and the first predicted by mathematics before its discovery.
       objectReference: {fileID: 0}
     - target: {fileID: 4227861560717724481, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
