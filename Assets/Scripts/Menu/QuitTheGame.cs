@@ -41,10 +41,10 @@ public class QuitTheGame : MonoBehaviour
         #endregion
     }
 
-    #region Show options menu by button press
+    #region Show QuitGameWindow menu by button press
     public void OpenQuitMenu()
     {
-        if (!QuitGameWindow.activeInHierarchy)
+       // if (!QuitGameWindow.activeInHierarchy)
         {
             QuitGameWindow.SetActive(true);
             Time.timeScale = 0f;

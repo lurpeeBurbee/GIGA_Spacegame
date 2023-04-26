@@ -2964,6 +2964,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2420979983444789615, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
+      propertyPath: m_Name
+      value: QuitGameMenuWindow
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595292687571757678, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595292687571757678, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
+      propertyPath: QuitGameWindow
+      value: 
+      objectReference: {fileID: 1307245517}
     - target: {fileID: 2972405077933351917, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -3020,8 +3032,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExitFromOuterSpace
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7473797133609825533, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
+      propertyPath: QuitButton
+      value: 
+      objectReference: {fileID: 1307245517}
+    - target: {fileID: 7473797133609825533, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
+      propertyPath: QuitGameWindow
+      value: 
+      objectReference: {fileID: 1307245516}
+    m_RemovedComponents:
+    - {fileID: 2595292687571757678, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
+--- !u!1 &1307245516 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2420979983444789615, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
+  m_PrefabInstance: {fileID: 1307245515}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1307245517 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4599623674653883003, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
+  m_PrefabInstance: {fileID: 1307245515}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1308678292
 GameObject:
   m_ObjectHideFlags: 0
