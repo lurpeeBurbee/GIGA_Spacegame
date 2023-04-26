@@ -3008,6 +3008,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4599623674653883004, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -813
+      objectReference: {fileID: 0}
+    - target: {fileID: 4599623674653883004, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 457
+      objectReference: {fileID: 0}
     - target: {fileID: 6929804595126970774, guid: ed0ebf16766817d4fbbf09594adaac2d, type: 3}
       propertyPath: m_Name
       value: ExitFromOuterSpace

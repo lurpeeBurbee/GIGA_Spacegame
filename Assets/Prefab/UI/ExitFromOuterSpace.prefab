@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 4599623674653882992}
   - component: {fileID: 4599623674653883007}
   - component: {fileID: 4599623674653883006}
+  - component: {fileID: 2595292687571757678}
   m_Layer: 5
-  m_Name: SettingsButton
+  m_Name: QuitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -122,9 +123,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4599623674744825071}
-        m_TargetAssemblyTypeName: SettingsMenu, Assembly-CSharp
-        m_MethodName: OpenSettings
+      - m_Target: {fileID: 7473797133609825533}
+        m_TargetAssemblyTypeName: QuitTheGame, Assembly-CSharp
+        m_MethodName: OpenQuitMenu
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -134,6 +135,20 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &2595292687571757678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4599623674653883003}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9973e082b31189748901457a58c89bb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuitGameWindow: {fileID: 2420979983444789615}
+  QuitButton: {fileID: 4599623674653883003}
 --- !u!1 &4599623674744825065
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,7 +161,7 @@ GameObject:
   - component: {fileID: 4599623674744825068}
   - component: {fileID: 4599623674744825067}
   - component: {fileID: 4599623674744825066}
-  - component: {fileID: 4599623674744825071}
+  - component: {fileID: 7473797133609825533}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -237,7 +252,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4599623674744825071
+--- !u!114 &7473797133609825533
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,11 +261,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4599623674744825065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7709b2dae23a20f4f949c2e8cad08177, type: 3}
+  m_Script: {fileID: 11500000, guid: 9973e082b31189748901457a58c89bb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  options: {fileID: 0}
-  settingsB: {fileID: 4599623674653883003}
+  QuitGameWindow: {fileID: 2420979983444789615}
+  QuitButton: {fileID: 4599623674653883003}
 --- !u!1 &4599623675622271750
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,5 +533,10 @@ PrefabInstance:
 --- !u!224 &2420979983444789587 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5075080363442466832, guid: 1d23343e00b9d034e860b0ec45fac658, type: 3}
+  m_PrefabInstance: {fileID: 7491529916010379587}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2420979983444789615 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5075080363442466860, guid: 1d23343e00b9d034e860b0ec45fac658, type: 3}
   m_PrefabInstance: {fileID: 7491529916010379587}
   m_PrefabAsset: {fileID: 0}
