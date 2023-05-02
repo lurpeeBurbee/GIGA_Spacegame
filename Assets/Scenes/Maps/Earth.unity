@@ -185,6 +185,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 569652437391327265, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
   m_PrefabInstance: {fileID: 1608149644}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &121579785 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8663080447669382002, guid: d0d9db6934559614d88c1d92910afa1a, type: 3}
+  m_PrefabInstance: {fileID: 1228054453}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f8f4518e6c54a41acc256077561f55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &259888256
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1106,6 +1117,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -189
       objectReference: {fileID: 0}
+    - target: {fileID: 310587582250017831, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 310587582673441224, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_Name
       value: InterractMenu
@@ -1200,10 +1215,22 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 310587582673441271, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_AdditionalShaderChannelsFlag
-      value: 1
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 310587582723252294, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
       propertyPath: m_Spacing.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310587582723252295, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310587582723252295, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 310587582723252295, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
+      propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 310587582723252312, guid: 8322ed677910f9d43bc73f3e741d898b, type: 3}
@@ -1814,6 +1841,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 495062288, guid: ccbd6021e3b87164ba362b029f657b8c, type: 3}
+      propertyPath: gm
+      value: 
+      objectReference: {fileID: 121579785}
+    - target: {fileID: 1009684080, guid: ccbd6021e3b87164ba362b029f657b8c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3132497755350429644, guid: ccbd6021e3b87164ba362b029f657b8c, type: 3}
       propertyPath: currentScene
       value: Earth
@@ -1882,5 +1917,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerScaler
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4168297406934761973, guid: ccbd6021e3b87164ba362b029f657b8c, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ccbd6021e3b87164ba362b029f657b8c, type: 3}

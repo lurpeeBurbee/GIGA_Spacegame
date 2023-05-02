@@ -8,60 +8,60 @@ public class Collision : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.collider.tag == "Asteroid")
+        if (collision.gameObject.CompareTag("Asteroid"))
         {
             StartCoroutine(MoveDisable());
         }
 
-        if (collision.collider.tag == "Mercury")
+        if (collision.gameObject.CompareTag("Mercury"))
         {
             gm.currentPlanet = 1;
             gm.Save();
             Debug.Log("currentPlanet has been set to " + gm.currentPlanet);
         }
-        if (collision.collider.tag == "Venus")
+        if (collision.gameObject.CompareTag("Venus"))
         {
             gm.currentPlanet = 2;
             gm.Save();
             Debug.Log("currentPlanet has been set to " + gm.currentPlanet);
         }
-        if (collision.collider.tag == "Earth")
+        if (collision.gameObject.CompareTag("Earth"))
         {
             gm.currentPlanet = 3;
             gm.Save();
             Debug.Log("currentPlanet has been set to " + gm.currentPlanet);
         }
-        if (collision.collider.tag == "Mars")
+        if (collision.gameObject.CompareTag("Mars"))
         {
             gm.currentPlanet = 4;
             gm.Save();
             Debug.Log("currentPlanet has been set to " + gm.currentPlanet);
         }
-        if (collision.collider.tag == "Jupiter")
+        if (collision.gameObject.CompareTag("Jupiter"))
         {
             gm.currentPlanet = 5;
             gm.Save();
             Debug.Log("currentPlanet has been set to " + gm.currentPlanet);
         }
-        if (collision.collider.tag == "Saturn")
+        if (collision.gameObject.CompareTag("Saturn"))
         {
             gm.currentPlanet = 6;
             gm.Save();
             Debug.Log("currentPlanet has been set to " + gm.currentPlanet);
         }
-        if (collision.collider.tag == "Uranus")
+        if (collision.gameObject.CompareTag("Uranus"))
         {
             gm.currentPlanet = 7;
             gm.Save();
             Debug.Log("currentPlanet has been set to " + gm.currentPlanet);
         }
-        if (collision.collider.tag == "Neptune")
+        if (collision.gameObject.CompareTag("Neptune"))
         {
             gm.currentPlanet = 8;
             gm.Save();
             Debug.Log("currentPlanet has been set to " + gm.currentPlanet);
         }
-        if (collision.collider.tag == "Pluto")
+        if (collision.gameObject.CompareTag("Pluto"))
         {
             gm.currentPlanet = 9;
             gm.Save();

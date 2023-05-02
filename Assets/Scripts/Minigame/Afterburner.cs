@@ -27,7 +27,7 @@ public class Afterburner : MonoBehaviour
         }
 
         if (TryGetComponent(out GameObject spaceshuttle))
-        {
+        {  
         movementscript = PlayerShuttle.GetComponent<Movement2>();
         PlayerIsMoving = movementscript.rb.velocity != Vector2.zero;
         }

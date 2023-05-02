@@ -977,6 +977,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -237
       objectReference: {fileID: 0}
+    - target: {fileID: 7567500714871608538, guid: 9036d4e31c60ed4428c21b6cfbcc62bd, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7567500714871608539, guid: 9036d4e31c60ed4428c21b6cfbcc62bd, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

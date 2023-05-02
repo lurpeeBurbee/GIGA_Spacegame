@@ -174,27 +174,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7f8f4518e6c54a41acc256077561f55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cargo: 0
   currentPlanet: 0
-  Planet1: 0
-  Planet2: 0
-  Planet3: 0
-  Planet4: 0
-  Planet5: 0
-  Planet6: 0
-  Planet7: 0
-  Planet8: 0
-  Planet9: 0
-  planet1Score: 0
-  planet2Score: 0
-  planet3Score: 0
-  planet4Score: 0
-  planet5Score: 0
-  planet6Score: 0
-  planet7Score: 0
-  planet8Score: 0
-  planet9Score: 0
-  userVol: 0
+  planetStatus: 0100000002000000030000000400000005000000060000000700000008000000090000000a000000
+  scoreList: 
 --- !u!1 &8663080448473279954
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
