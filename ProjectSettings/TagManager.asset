@@ -19,6 +19,7 @@ TagManager:
   - Trigger2R
   - Proxy
   - planetExitArea
+  - Sun
   layers:
   - Default
   - TransparentFX
