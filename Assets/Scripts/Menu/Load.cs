@@ -29,10 +29,10 @@ public class Load : MonoBehaviour
     //     SceneManager.LoadScene("Quiz");
     // }
     //
-    // public void ExitApplication() // Quit Button
-    // {
-    //     Application.Quit();
-    // }
+    public void ExitApplication() // Quit Button
+    {
+        Application.Quit();
+    }
 
     public void Examine() // Napin 'On Click ()' Load.Examine
     {
