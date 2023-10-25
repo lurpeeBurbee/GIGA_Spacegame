@@ -1164,7 +1164,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8882003552576801433, guid: ccbd6021e3b87164ba362b029f657b8c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10.41
+      value: 4.78
       objectReference: {fileID: 0}
     - target: {fileID: 8882003552576801433, guid: ccbd6021e3b87164ba362b029f657b8c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4238,6 +4238,7 @@ MonoBehaviour:
   tank: {fileID: 1919308387}
   cab: {fileID: 1560408224}
   boosters: {fileID: 1005788591}
+  burningSpeed: 0
 --- !u!114 &1657609871
 MonoBehaviour:
   m_ObjectHideFlags: 0
